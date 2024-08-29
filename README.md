@@ -1,12 +1,12 @@
 # What?
-This repository contains code for using the $\text{d}_{HM}$ evaluation method proposed in:  
+This repository contains code for using the $d_{HM}$ evaluation method proposed in:  
 [*Not (yet) the whole story*: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition](https://arxiv.org/pdf/2407.04559)
 
 # Why?
-$\text{d}_{HM}$ enables human-centric evaluation of model-generated stories along different dimensions important for visual story generation.
+$d_{HM}$ enables human-centric evaluation of model-generated stories along different dimensions important for visual story generation.
 
 # How?
-$\text{d}_{HM}$ combines three reference-free evaluation metrics&mdash;GROOViST[^1] (for visual grounding), RoViST-C[^2] (for coherence), and RoViST-NR[^2] (for non-redundancy).
+$d_{HM}$ combines three reference-free evaluation metrics&mdash;GROOViST[^1] (for visual grounding), RoViST-C[^2] (for coherence), and RoViST-NR[^2] (for non-redundancy).
 
 [^1]: https://aclanthology.org/2023.emnlp-main.202/
 [^2]: https://aclanthology.org/2022.findings-naacl.206/
@@ -27,7 +27,7 @@ For computing coherence and non-redundancy scores, use the following utility:
 
 Similar to Step `0`.
 
-## Step 2: Compute $\text{d}_{HM}$
+## Step 2: Compute $d_{HM}$
 
-For obtaining aggregate $\text{d}_{HM}$ values along with corresponding metric-level distances ($\text{d}_{HM}^G, \text{d}_{HM}^C, \text{d}_{HM}^R$), use the following utility:  
+For obtaining aggregate $d_{HM}$ values along with corresponding metric-level distances ($d_{HM}^G, d_{HM}^C, d_{HM}^R$), use the following utility:  
 `python dHM.py --help`
