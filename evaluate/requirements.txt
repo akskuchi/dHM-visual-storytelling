@@ -1,0 +1,7 @@
+torch==2.0.1
+torchvision==0.15.2
+pandas==2.1.1
+nltk==3.8.1
+transformers==4.30.0
+sentencepiece==0.1.99
+scikit-learn==1.3.1
