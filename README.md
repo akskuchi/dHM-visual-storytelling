@@ -1,8 +1,13 @@
+[![CC BY license](https://img.shields.io/badge/License-CC%20BY-lightgray.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Python](https://img.shields.io/badge/python-3.11-gold.svg)](https://www.python.org/downloads/release/python-311/)
+[![PyTorch](https://img.shields.io/badge/Pytorch-2.0-pumpkin.svg)](https://pytorch.org/get-started/previous-versions/#v200)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Models-purple)](https://huggingface.co/models?pipeline_tag=image-text-to-text&sort=trending)
+
 # 👀 What?
 This repository contains code for using the $d_{HM}$ evaluation method proposed in:  
-[*Not (yet) the whole story*: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition](https://arxiv.org/pdf/2407.04559)&mdash;In proceedings of EMNLP 2024 (Findings)
+**[*Not (yet) the whole story*: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition](https://arxiv.org/pdf/2407.04559)**&mdash;In proceedings of EMNLP 2024 (Findings)
 
-**Note:** Despite being proposed specifically for visual storytelling, this method is generalizable and can be extended to any task involving model-generated outputs and corresponding references.
+**Note:** Despite being proposed specifically for visual storytelling, this method is generalizable and can be extended to any task involving model-generated outputs with corresponding references.
 
 # 🤔 Why?
 $d_{HM}$ enables human-centric evaluation of model-generated stories along different dimensions important for visual story generation.
