@@ -5,7 +5,7 @@
 
 # 👀 What?
 This repository contains code for using the $d_{HM}$ evaluation method proposed in:  
-**[*Not (yet) the whole story*: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition](https://arxiv.org/pdf/2407.04559)**&mdash;In proceedings of EMNLP 2024 (*Findings*).
+**[*Not (yet) the whole story*: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition](https://aclanthology.org/2024.findings-emnlp.679)**&mdash;In proceedings of EMNLP 2024 (*Findings*).
 
 **Note:** Despite being proposed specifically for visual storytelling, this method is generalizable and can be extended to any task involving model-generated outputs with corresponding references.
 
@@ -45,7 +45,21 @@ For obtaining aggregate $d_{HM}$ values along with corresponding metric-level di
 ---
 🔗 If you find this work useful, please consider citing it:
 ```
-@inproceedings{
-   EMNLP 2024 Findings (to appear) 
+@inproceedings{surikuchi-etal-2024-yet,
+    title = "Not (yet) the whole story: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition",
+    author = "Surikuchi, Aditya Kaushik  and
+      Fern{\'a}ndez, Raquel  and
+      Pezzelle, Sandro",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.679",
+    doi = "10.18653/v1/2024.findings-emnlp.679",
+    pages = "11597--11611"
 }
 ```
