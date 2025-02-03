@@ -47,7 +47,7 @@ For obtaining aggregate $d_{HM}$ values along with corresponding metric-level di
 ```
 @inproceedings{surikuchi-etal-2024-yet,
     title = "Not (yet) the whole story: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition",
-    author = "Surikuchi, Aditya Kaushik  and
+    author = "Surikuchi, Aditya K  and
       Fern{\'a}ndez, Raquel  and
       Pezzelle, Sandro",
     editor = "Al-Onaizan, Yaser  and
@@ -58,7 +58,7 @@ For obtaining aggregate $d_{HM}$ values along with corresponding metric-level di
     year = "2024",
     address = "Miami, Florida, USA",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.findings-emnlp.679",
+    url = "https://aclanthology.org/2024.findings-emnlp.679/",
     doi = "10.18653/v1/2024.findings-emnlp.679",
     pages = "11597--11611"
 }
