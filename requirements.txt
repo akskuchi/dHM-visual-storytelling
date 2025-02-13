@@ -2,3 +2,6 @@ numpy==1.26.4
 tqdm==4.66.4
 torch==2.2.0
 transformers==4.44.2
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+seaborn==0.13.2

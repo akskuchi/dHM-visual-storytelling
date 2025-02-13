@@ -23,7 +23,7 @@ Install python (e.g., version `3.11`) and other dependencies provided under [req
 `pip install -r requirements.txt`
 
 ## Step 0: Generate stories
-For generating stories using the models and settings proposed in this work, refer to [this documentation](./generate-stories/README.md).
+For generating stories using the models and settings proposed in this work, refer to [this documentation](./generate/README.md).
 
 ## Step 1A: Compute metric-level scores for human stories
 For computing visual grounding scores (`G`), checkout the [GROOViST](https://github.com/akskuchi/groovist/) repository.
@@ -31,7 +31,7 @@ For computing visual grounding scores (`G`), checkout the [GROOViST](https://git
 For computing coherence (`C`) and repetition (`R`) scores, use the following utility adapted from [RoViST](https://github.com/usydnlp/rovist). E.g.,  
 `python evaluate/eval_C_R.py -i ./data/stories/vist/gt_test.json -o ./data/scores/vist/gt_test`  
 
-**Note 1:** Download the pre-trained ALBERT model from [here](https://drive.google.com/file/d/1-ATRk6AQyKGNDZHkqrKkpjiY6jfbK9NS/view?usp=sharing) and place it under the [`data/`](./data/) folder.
+**Note 1:** Download the pre-trained ALBERT model from [here](https://drive.google.com/file/d/1-ATRk6AQyKGNDZHkqrKkpjiY6jfbK9NS/view?usp=sharing) and place it under the [`data/`](./data/) directory.
 
 **Note 2:** Requirements differ&mdash;checkout the [evaluate/requirements](./evaluate/requirements.txt) file.
 
@@ -41,6 +41,8 @@ Similar to Step `1A`.
 ## Step 2: Evaluate using $d_{HM}$
 For obtaining aggregate $d_{HM}$ values along with corresponding metric-level distances ($d_{HM}^G, d_{HM}^C, d_{HM}^R$), use the following utility. E.g.,  
 `python dHM.py -d VIST`
+
+Code for visualizing the scores is provided under the [visualize/](/visualize/) directory.
 
 ---
 🔗 If you find this work useful, please consider citing it:
